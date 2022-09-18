@@ -1,0 +1,14 @@
+  const mailRef = useRef();
+
+  //? Firebase handler
+  /*
+  const fetchData = (e) => {
+    e.preventDefault();
+
+    const data = {
+      mailID: mailRef.current.value,
+    };
+
+    handler(data);
+  };
+  */

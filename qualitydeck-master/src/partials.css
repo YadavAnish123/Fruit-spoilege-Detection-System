@@ -1,0 +1,18 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');*/
+
+:root{
+
+  /* Colors */
+  --navy: #203562;
+  --light-blue: #3E588F;
+  --grey: #C0C5CD;
+  --light-grey: #E3E8F8;
+
+
+  /* Fonts */
+  --font-main: 'Open Sans';
+  --font-secondary: 'Raleway';
+  
+}

@@ -1,0 +1,64 @@
+@import "./partials.css";
+
+/* Scrollbar styling */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--light-grey);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--light-blue);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--navy);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-secondary);
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--light-grey);
+}
+
+.logo{
+  font-weight: 300;
+  color: var(--light-grey);
+}
+
+.content{
+  padding-top: 5em;
+}
+
+button{
+  font-size: 15px;
+}
+
+button:hover, button:active, button:focus{
+  outline: none !important;
+}
+
+.goto-btn{
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  font-size: 1.1em;
+  border-radius: 7px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

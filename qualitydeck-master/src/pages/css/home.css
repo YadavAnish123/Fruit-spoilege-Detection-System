@@ -1,0 +1,32 @@
+.Home{
+  width: 100%;
+  min-height: 85vh;
+}
+
+.bg-img{
+  margin-top: 4.5em;
+  width: 100%;
+  height: 85vh;
+  object-fit: cover;
+  opacity: 0.75;
+}
+
+.text-container{
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+  margin-top: 12em;
+  background: white;
+  padding: 25px;
+  border-radius: 7px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.text-container > p, .text-container > h1, .text-container > h3{
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--navy);
+}

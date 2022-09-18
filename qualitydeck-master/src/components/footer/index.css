@@ -1,0 +1,14 @@
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.8em;
+  background: var(--light-blue);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.wrapper > h1{
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--light-grey);
+  text-align: center;
+}
